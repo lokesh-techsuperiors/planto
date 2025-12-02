@@ -1,0 +1,140 @@
+body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .nav-container {
+            background: linear-gradient(180deg, #1a3a2e 0%, #0f2419 100%);
+        }
+
+        .heroHeading {
+            font-weight: 600;
+            font-size: 70px;
+            line-height: 100px;
+            color: #FFFFFF;
+            opacity: 0.75;
+        }
+
+        .heroDescription {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            color: #FFFFFF;
+            opacity: 0.75;
+            max-width: 893px;
+        }
+
+        .exploreBtn {
+            width: 150px;
+            height: 50px;
+            border: 2px solid #FFFFFF;
+            border-radius: 12px;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 34px;
+            color: #FFFFFF;
+            opacity: 1;
+            background: transparent;
+            transition: opacity 0.3s;
+        }
+        .playBtn {
+            width: 50px;
+            height: 50px;
+            border: 2px solid #FFFFFF;
+            border-radius: 50%;
+            opacity: 1;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.3s;
+        }
+
+        .liveDemoText {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+
+        .alenaPatel {
+            width: 409px;
+            padding: 32px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10.1px);
+            border-radius: 45px;
+        }
+
+        .plantCard {
+            width: 365px;
+            height: 470px;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(12.5px);
+            border-radius: 77px;
+            position: relative;
+            overflow: visible;
+        }
+
+        .plantImageContainer {
+            position: absolute;
+            width: 390px;
+            height: 390px;
+            top: -113px;
+            left: 50%;
+            transform: translateX(-50%);
+            filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 46.233px 36.9864px rgba(0, 0, 0, 0.0519173)) drop-shadow(0px 26.4535px 21.1628px rgba(0, 0, 0, 0.0438747)) drop-shadow(0px 16.0571px 12.8457px rgba(0, 0, 0, 0.0377964)) drop-shadow(0px 9.67509px 7.74008px rgba(0, 0, 0, 0.0322036)) drop-shadow(0px 5.38772px 4.31018px rgba(0, 0, 0, 0.0261253)) drop-shadow(0px 2.31722px 1.85378px rgba(0, 0, 0, 0.0180827));
+        }
+
+        .plantCardContent {
+            position: absolute;
+            bottom: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: calc(100% - 80px);
+            text-align: center;
+        }
+
+        .plantLabel {
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+            opacity: 0.6;
+            margin-bottom: 4px;
+        }
+
+        .plantName {
+            font-weight: 300;
+            font-size: 30px;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+
+        .buyNowBtn {
+            width: 159px;
+            height: 52px;
+            border: 1.5px solid #FFFFFF;
+            border-radius: 10px;
+            font-weight: 400;
+            font-size: 20px;
+            color: #FFFFFF;
+            opacity: 1;
+            background: transparent;
+            /* transition: opacity 0.3s; */
+            /* margin: 0 auto; */
+            display: block;  
+        }
+
+   
+      
+
+        .trendyPlantShadow {
+            filter: drop-shadow(0px 27px 80px rgba(0, 0, 0, 0.12)) drop-shadow(0px 13.5132px 40.0391px rgba(0, 0, 0, 0.0912399)) drop-shadow(0px 8.13971px 24.1177px rgba(0, 0, 0, 0.0781907)) drop-shadow(0px 5.21635px 15.4559px rgba(0, 0, 0, 0.0685074)) drop-shadow(0px 3.38082px 10.0172px rgba(0, 0, 0, 0.06)) drop-shadow(0px 2.12819px 6.30574px rgba(0, 0, 0, 0.0514926)) drop-shadow(0px 1.22278px 3.62304px rgba(0, 0, 0, 0.0418093)) drop-shadow(0px 0.538175px 1.59459px rgba(0, 0, 0, 0.0287601));
+        }
+
+        .glassCard {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10.1px);
+        }
+
+    
